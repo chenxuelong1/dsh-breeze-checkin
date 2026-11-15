@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "Breeze 签到",
+    "description": "管理 Breeze Blue 开发者账号，勾选后串行签到领取每日积分，并显示每个账号的余额与上次签到结果。",
+    "detail": "docs/DETAIL.md"
+  },
+  "nav": {
+    "panel": "Breeze 签到"
+  },
+  "card": {
+    "poolTitle": "账号池",
+    "checkinSelected": "签到勾选的账号",
+    "refresh": "刷新状态"
+  }
+}

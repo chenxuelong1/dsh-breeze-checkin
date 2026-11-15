@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "Breeze check-in",
+    "description": "Keeps Breeze Blue developer accounts in one place, checks in the selected ones one at a time to claim daily credits, and shows each account's balance and last check-in result.",
+    "detail": "docs/DETAIL.md"
+  },
+  "nav": {
+    "panel": "Breeze check-in"
+  },
+  "card": {
+    "poolTitle": "Account pool",
+    "checkinSelected": "Check in selected",
+    "refresh": "Refresh"
+  }
+}

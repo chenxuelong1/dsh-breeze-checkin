@@ -1,0 +1,5 @@
+# 注册 Breeze Blue 签到插件。默认不签到、不联网：
+# 只有用户在设置页显式添加账号并点击「签到勾选的账号」时才会发出请求。
+- insert:
+    - id: dsh-breeze-checkin
+      name: dsh-breeze-checkin

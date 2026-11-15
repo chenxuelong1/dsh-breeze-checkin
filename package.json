@@ -1,0 +1,50 @@
+{
+  "name": "dsh-breeze-checkin",
+  "displayName": "Breeze Blue check-in",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "把 Breeze Blue（breezeblue.ai）开发者账号接入 DeepSeek Harness：账号池、勾选串行签到、余额与签到状态只读概览。",
+  "license": "MIT",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "breezeblue",
+    "check-in",
+    "daily-credits"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ]
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
