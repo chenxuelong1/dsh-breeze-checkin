@@ -15,6 +15,14 @@
   "engines": {
     "node": ">=22"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenxuelong1/dsh-breeze-checkin.git"
+  },
+  "homepage": "https://github.com/chenxuelong1/dsh-breeze-checkin#readme",
+  "bugs": {
+    "url": "https://github.com/chenxuelong1/dsh-breeze-checkin/issues"
+  },
   "main": "index.js",
   "exports": {
     ".": "./index.js",

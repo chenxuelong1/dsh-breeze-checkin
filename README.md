@@ -18,7 +18,7 @@
 ### 方式一：本地目录
 
 ```bash
-git clone https://github.com/<你的用户名>/dsh-breeze-checkin.git
+git clone https://github.com/chenxuelong1/dsh-breeze-checkin.git
 ```
 
 然后在 DSH 的 **插件** 页面用「添加插件」选择该目录，或：
@@ -32,7 +32,7 @@ plugin_manager install_bundle  target = <克隆下来的绝对路径>
 DSH 的安装器支持 `git` 形式的安装规格：
 
 ```
-plugin_manager install_bundle  target = git+https://github.com/<你的用户名>/dsh-breeze-checkin.git
+plugin_manager install_bundle  target = git+https://github.com/chenxuelong1/dsh-breeze-checkin.git
 ```
 
 **不需要发布到 npm。** DSH 的安装器支持四种规格：`registry`、`git`、`path`、`tarball`。
